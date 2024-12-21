@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etIzinDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal Izin (YYYY-MM-DD)" />
+
+    <EditText
+        android:id="@+id/etIzinReason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alasan Izin" />
+
+    <Button
+        android:id="@+id/btnSubmitIzin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajukan Izin" />
+</LinearLayout>

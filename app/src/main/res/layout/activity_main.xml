@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:background="#00A2E3"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/textViewHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aplikasi Absen"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="74dp"
+        android:text="Selamat Datang"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="normal|bold"/>
+
+    <Button
+        android:id="@+id/btn_absensi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginRight="12dp"
+        android:backgroundTint="#00A2E3"
+        android:text="Absensi"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_tidakHadir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginRight="12dp"
+        android:backgroundTint="#00A2E3"
+        android:text="Ketidakhadiran"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_Cuti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginRight="12dp"
+        android:backgroundTint="#00A2E3"
+        android:text="Cuti"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_Approval"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginRight="12dp"
+        android:backgroundTint="#00A2E3"
+        android:text="Approval"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_Riwayat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginRight="12dp"
+        android:backgroundTint="#00A2E3"
+        android:text="Riwayat"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+</RelativeLayout>
